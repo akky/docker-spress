@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  spress_initialize:
+    build:
+      context: .
+    volumes:
+      - "./data:/data"
+    command: ["new:site", "source", "spresso"]
+  spress:
+    depends_on:
+      - spress_initialize
+    build:
+      context: .
+    ports:
+      - 80:4000
+    volumes:
+      - "./data:/data"
+    command: ["site:build", "-s", "source", "--watch", "--server"]
