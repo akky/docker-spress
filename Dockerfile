@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM docker-registry.dev.cybozu.xyz:443/debian:jessie
 MAINTAINER Akky AKIMOTO <akimoto@gmail.com>
 
 RUN apt-get update && \
