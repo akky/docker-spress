@@ -3,7 +3,7 @@ description: "Spressによる静的サイト"
 logo: "spresso-logo.png"
 
 # Your site's domain. E.g: http://yoursite.com
-#url: "http://akimoto.jp/spress"
+url: "http://akimoto.jp/spress"
 
 parsedown_actived: true
 
@@ -51,7 +51,7 @@ bing_verify:
 
 # Page menus
 top_menu:
-    - { name: Home, url: "/" }
+    - { name: Home, url: "/", url: "http://akimoto.jp/spress" }
 
 bottom_menu:
     - { name: "Go to Spresso theme web", url: "https://github.com/yosymfony/Spress-theme-spresso" }
