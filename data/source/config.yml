@@ -52,6 +52,8 @@ bing_verify:
 # Page menus
 top_menu:
     - { name: Home, url: "/", url: "http://akimoto.jp/spress" }
+    - { name: Tags, url: "/", url: "http://akimoto.jp/spress/tags" }
+    - { name: Categories, url: "/", url: "http://akimoto.jp/spress/categories" }
 
 bottom_menu:
     - { name: "Go to Spresso theme web", url: "https://github.com/yosymfony/Spress-theme-spresso" }
